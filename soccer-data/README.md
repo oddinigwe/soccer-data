@@ -84,7 +84,7 @@ plt.show()
 
 ```
 #Visualization for Count
-fig = plt.figure(1, figsize=(15,13))
+fig = plt.figure(1, figsize=(12,10))
 TopTournament = np.array(TournamentCount.head(15).index)
 TopTournamentData = df[df['tournament'].isin(TopTournament)]
 ax = sns.countplot(data= TopTournamentData, y ='tournament',order=TopTournament)
@@ -99,7 +99,7 @@ plt.show()
 
 ```
 # Visualization for Scores
-fig = plt.figure(1, figsize=(15,11))
+fig = plt.figure(1, figsize=(12,9))
 plt.title('Score as Away Team for top 15 played Times', fontsize = 20, weight = 'bold')
 ax = sns.lvplot(data=TopAwayTeamData, x='away_ft', y='away_team',order=TopAwayTeam)
 plt.setp(ax.get_xticklabels(), fontsize=12, weight = 'normal', rotation = 0);
@@ -112,7 +112,7 @@ plt.show()
 
 ```
 # Visualization for Scores
-fig = plt.figure(1, figsize=(15,11))
+fig = plt.figure(1, figsize=(12,9))
 plt.title('Score as Home Team for top 15 played Times', fontsize = 20, weight = 'bold')
 ax = sns.lvplot(data=TopHomeTeamData, x='home_ft', y='home_team',order=TopHomeTeam)
 plt.setp(ax.get_xticklabels(), fontsize=12, weight = 'normal', rotation = 0);
@@ -125,7 +125,7 @@ plt.show()
 
 ```
 #Visualization for Counts
-fig = plt.figure(1, figsize=(15,13))
+fig = plt.figure(1, figsize=(12,10))
 TopTournament = np.array(TournamentCount.head(15).index)
 TopTournamentData = df[df['tournament'].isin(TopTournament)]
 ax = sns.countplot(data= TopTournamentData, y ='tournament',order=TopTournament)
@@ -140,7 +140,7 @@ plt.show()
 
 ```
 #Visualization for Score in Different Tournaments
-f, axes = plt.subplots(2, 1, figsize=(14,20))
+f, axes = plt.subplots(2, 1, figsize=(12,18))
 plt.sca(axes[0])
 TopTournament = np.array(TournamentCount.head(15).index)
 TopTournamentData = df[df['tournament'].isin(TopTournament)]
@@ -164,7 +164,7 @@ plt.show()
 
 ```
 # Visualization for Counts
-fig = plt.figure(1, figsize=(15,11))
+fig = plt.figure(1, figsize=(12,9))
 TopCity = np.array(CityCount.head(15).index)
 TopCityData = df[df['city'].isin(TopCity)]
 ax = sns.countplot(data= TopCityData, y ='city',order=TopCity)
@@ -180,7 +180,7 @@ plt.show()
 
 ```
 # Visualization for scores
-f, axes = plt.subplots(2, 1, figsize=(14,20))
+f, axes = plt.subplots(2, 1, figsize=(12,18))
 plt.sca(axes[0])
 plt.title('The Home Score in Different Cities', fontsize = 20, weight = 'bold')
 ax = sns.lvplot(data=TopCityData, x='home_ft', y='city',order=TopCity)
