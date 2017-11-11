@@ -1,4 +1,4 @@
-# soccer-data: 
+# SOCCER DATA 
 
 ## About this Dataset
 
