@@ -55,6 +55,10 @@ home_team_Count = df.groupby(by=['home_team'])['tournament'].agg({'Count': np.si
 home_team_Count['Count'] = home_team_Count['Count'].astype(int)
 home_team_Count = home_team_Count.sort_values(by = 'Count', ascending=False)
 home_team_Count.head(10)
+```
+![GitHub Logo](out.png)
+
+```
 
 #Visualization for Count
 TopHomeTeam = np.array(home_team_Count.head(15).index)
@@ -80,7 +84,7 @@ ax.yaxis.label.set_visible(False)
 plt.show()
 
 ```
-![GitHub Logo](out.png)
+![GitHub Logo](out2.png)
 
 ```
 #Visualization for Count
@@ -95,7 +99,7 @@ plt.xlabel('Tournament count', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out2.png)
+![GitHub Logo](out3.png)
 
 ```
 # Visualization for Scores
@@ -108,7 +112,7 @@ plt.xlabel('Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out3.png)
+![GitHub Logo](out6.png)
 
 ```
 # Visualization for Scores
@@ -121,7 +125,7 @@ plt.xlabel('Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out6.png)
+![GitHub Logo](out7.png)
 
 ```
 #Visualization for Counts
@@ -136,7 +140,7 @@ plt.xlabel('Tournament count', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out7.png)   
+![GitHub Logo](out8.png)   
 
 ```
 #Visualization for Score in Different Tournaments
@@ -160,7 +164,7 @@ plt.xlabel('Away Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out8.png)
+![GitHub Logo](out9.png)
 
 ```
 # Visualization for Counts
@@ -176,7 +180,7 @@ plt.xlabel('Match count', fontsize=16, weight = 'bold', labelpad=10)
 plt.show()
 
 ```
-![GitHub Logo](out9.png)
+![GitHub Logo](out10.png)
 ```
 # Visualization for scores
 f, axes = plt.subplots(2, 1, figsize=(12,18))
@@ -197,8 +201,7 @@ plt.xlabel('Away Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](out10.png)
-```
-```
 ![GitHub Logo](out11.png)
+
 ```
+
