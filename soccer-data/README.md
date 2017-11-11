@@ -160,7 +160,7 @@ plt.xlabel('Away Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](/out8.png)
+![GitHub Logo](out8.png)
 
 ```
 # Visualization for Counts
@@ -176,8 +176,7 @@ plt.xlabel('Match count', fontsize=16, weight = 'bold', labelpad=10)
 plt.show()
 
 ```
-![GitHub Logo](/out9.png)
-
+![GitHub Logo](out9.png)
 ```
 # Visualization for scores
 f, axes = plt.subplots(2, 1, figsize=(12,18))
@@ -198,10 +197,8 @@ plt.xlabel('Away Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](/out10.png)
-
+![GitHub Logo](out10.png)
 ```
 ```
-![GitHub Logo](/out11.png)
-
+![GitHub Logo](out11.png)
 ```
