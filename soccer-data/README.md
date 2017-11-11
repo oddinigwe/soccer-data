@@ -160,7 +160,7 @@ plt.xlabel('Away Score', fontsize=16, weight = 'bold', labelpad=10)
 ax.yaxis.label.set_visible(False)
 plt.show()
 ```
-![GitHub Logo](/output8.png)
+![GitHub Logo](/out8.png)
 
 ```
 # Visualization for Count 
@@ -199,5 +199,8 @@ ax.yaxis.label.set_visible(False)
 plt.show()
 ```
 ![GitHub Logo](/out10.png)
+
+```
+![GitHub Logo](/out11.png)
 
 ```
