@@ -98,7 +98,7 @@ plt.show()
 ![GitHub Logo](out2.png)
 
 ```
-# Visualization for Score
+# Visualization for Scores
 fig = plt.figure(1, figsize=(15,11))
 plt.title('Score as Away Team for top 15 played Times', fontsize = 20, weight = 'bold')
 ax = sns.lvplot(data=TopAwayTeamData, x='away_ft', y='away_team',order=TopAwayTeam)
@@ -111,7 +111,7 @@ plt.show()
 ![GitHub Logo](out3.png)
 
 ```
-# Visualization for Score
+# Visualization for Scores
 fig = plt.figure(1, figsize=(15,11))
 plt.title('Score as Home Team for top 15 played Times', fontsize = 20, weight = 'bold')
 ax = sns.lvplot(data=TopHomeTeamData, x='home_ft', y='home_team',order=TopHomeTeam)
@@ -124,7 +124,7 @@ plt.show()
 ![GitHub Logo](out6.png)
 
 ```
-#Visualization for Count
+#Visualization for Counts
 fig = plt.figure(1, figsize=(15,13))
 TopTournament = np.array(TournamentCount.head(15).index)
 TopTournamentData = df[df['tournament'].isin(TopTournament)]
@@ -139,7 +139,7 @@ plt.show()
 ![GitHub Logo](out7.png)   
 
 ```
-#Visualization foe Score in Different Tournament
+#Visualization for Score in Different Tournaments
 f, axes = plt.subplots(2, 1, figsize=(14,20))
 plt.sca(axes[0])
 TopTournament = np.array(TournamentCount.head(15).index)
@@ -163,7 +163,7 @@ plt.show()
 ![GitHub Logo](/out8.png)
 
 ```
-# Visualization for Count 
+# Visualization for Counts
 fig = plt.figure(1, figsize=(15,11))
 TopCity = np.array(CityCount.head(15).index)
 TopCityData = df[df['city'].isin(TopCity)]
@@ -179,7 +179,7 @@ plt.show()
 ![GitHub Logo](/out9.png)
 
 ```
-# Visualization for score
+# Visualization for scores
 f, axes = plt.subplots(2, 1, figsize=(14,20))
 plt.sca(axes[0])
 plt.title('The Home Score in Different Cities', fontsize = 20, weight = 'bold')
