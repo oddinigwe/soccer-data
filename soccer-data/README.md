@@ -1,10 +1,10 @@
 # soccer-data: 
 
-## PURPOSE
+##About this Dataset
+
 International football results from 1872 to 2017
 A dataset of nearly 40,000 international football results
 
-##About this Dataset
 ###Context
 
 Well, basically what happened was I was looking for a semi-definite easy to read list of international football matches and couldn't find anything decent. So I took it upon myself to collect it for my own use. I might as well share it.
