@@ -1,9 +1,4 @@
-# SOCCER DATA 
 
-## About this Dataset
-
-International football results from 1872 to 2017
-A dataset of nearly 40,000 international football results
 
 ### Context
 
